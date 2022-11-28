@@ -1,14 +1,16 @@
 package Iterations_02.Assignment_2;
 
+import java.math.BigDecimal;
+
 public class Zoo {
-    public double calculatePrice(Person person) {
+    public BigDecimal calculatePrice(Person person) {
         int age = person.getAge();
         if (age <= 5) {
-            return 0;
+            return BigDecimal.valueOf(0);
         } else if (age <= 12) {
-            return 5;
+            return BigDecimal.valueOf(5);
         } else {
-            return 15;
+            return BigDecimal.valueOf(15);
         }
     }
 }
