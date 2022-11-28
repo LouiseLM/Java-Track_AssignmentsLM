@@ -12,22 +12,24 @@ public class Main {
 
         System.out.println("For each loop:");
         for (int number : numbers) {
-            System.out.println(number);
+            System.out.println(number); // 1 2 3 4 5
         }
 
         System.out.println("For loop:");
         // Can be replaced with enhanced for loop which makes this the same as for-each above.
         // Left as is to comply with assignment requirements
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
+            System.out.println(numbers[i]); // 1 2 3 4 5
         }
 
         System.out.println("-------");
 
+        // new array to leave first part of assignment visible
         int[] numbers2 = new int[5];
 
-        for (int i = 1; i<numbers2.length; i++) {
-
+        for (int i = 0; i<numbers2.length; i++) {
+            numbers2[i] = i+1;
+            System.out.println(numbers2[i]); // 1 2 3 4 5
         }
     }
 }
