@@ -5,12 +5,12 @@ public class Main {
 
     public static void main(String[] args) {
         Person person1 = new Person("Macbeth", 3);
-        System.out.println(zoo.calculatePrice(person1));
+        System.out.println(zoo.calculatePrice(person1)); // 0
 
         Person person2 = new Person("Cleopatra", 10);
-        System.out.println(zoo.calculatePrice(person2));
+        System.out.println(zoo.calculatePrice(person2)); // 5
 
         Person person3 = new Person("John Doe", 50);
-        System.out.println(zoo.calculatePrice(person3));
+        System.out.println(zoo.calculatePrice(person3)); // 15
     }
 }
