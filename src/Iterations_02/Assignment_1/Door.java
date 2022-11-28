@@ -14,12 +14,18 @@ public class Door {
     public void openDoor() {
         if (!open) {
             open = true;
+            System.out.println("Opening door.");
+        } else {
+            System.out.println("The door is already open.");
         }
     }
 
     public void closeDoor() {
         if (open) {
             open = false;
+            System.out.println("Closing door");
+        } else {
+            System.out.println("The door is already closed.");
         }
     }
 

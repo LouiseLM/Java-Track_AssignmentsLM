@@ -5,9 +5,11 @@ public class Main {
         Door door1 = new Door(200, 80);
         Door door2 = new Door(240.2, 200.3);
 
+        //"Opening door"
         door1.openDoor();
         door2.openDoor();
 
+        //"Closing door"
         door1.closeDoor();
         door2.closeDoor();
 
